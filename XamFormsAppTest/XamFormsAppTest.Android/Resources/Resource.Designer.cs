@@ -1215,44 +1215,44 @@ namespace XamFormsAppTest.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
-			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_light = 2131492939;
-			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_btn_colored_borderless_text_material = 2131492940;
-			
-			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_text_material = 2131492941;
-			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_color_highlight_material = 2131492942;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_hint_foreground_material_dark = 2131492943;
+			public const int abc_background_cache_hint_selector_material_light = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_light = 2131492944;
+			public const int abc_btn_colored_borderless_text_material = 2131492944;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int abc_btn_colored_text_material = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_color_highlight_material = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int abc_hint_foreground_material_dark = 2131492947;
+			
+			// aapt resource value: 0x7f0c0054
+			public const int abc_hint_foreground_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int abc_input_method_navigation_guard = 2131492869;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_primary_text_disable_only_material_dark = 2131492945;
-			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_light = 2131492946;
-			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_material_dark = 2131492947;
-			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_light = 2131492948;
-			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_search_url_text = 2131492949;
+			public const int abc_primary_text_disable_only_material_dark = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_primary_text_disable_only_material_light = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_primary_text_material_dark = 2131492951;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int abc_primary_text_material_light = 2131492952;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int abc_search_url_text = 2131492953;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int abc_search_url_text_normal = 2131492870;
@@ -1263,32 +1263,35 @@ namespace XamFormsAppTest.Droid
 			// aapt resource value: 0x7f0c0008
 			public const int abc_search_url_text_selected = 2131492872;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_secondary_text_material_dark = 2131492950;
-			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_light = 2131492951;
-			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_tint_btn_checkable = 2131492952;
-			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_default = 2131492953;
-			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_edittext = 2131492954;
+			public const int abc_secondary_text_material_dark = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_seek_thumb = 2131492955;
+			public const int abc_secondary_text_material_light = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_spinner = 2131492956;
+			public const int abc_tint_btn_checkable = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_switch_thumb = 2131492957;
+			public const int abc_tint_default = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_tint_edittext = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_seek_thumb = 2131492959;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int abc_tint_spinner = 2131492960;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int abc_tint_switch_thumb = 2131492961;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int abc_tint_switch_track = 2131492962;
+			
+			// aapt resource value: 0x7f0c004c
+			public const int accent = 2131492940;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int accent_material_dark = 2131492873;
@@ -1347,8 +1350,8 @@ namespace XamFormsAppTest.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int design_bottom_navigation_shadow_color = 2131492927;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0063
+			public const int design_error = 2131492963;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int design_fab_shadow_end_color = 2131492928;
@@ -1380,8 +1383,8 @@ namespace XamFormsAppTest.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int design_textinput_error_color_light = 2131492937;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0064
+			public const int design_tint_password_toggle = 2131492964;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int dim_foreground_disabled_material_dark = 2131492887;
@@ -1452,6 +1455,9 @@ namespace XamFormsAppTest.Droid
 			// aapt resource value: 0x7f0c002c
 			public const int notification_material_background_media_default_color = 2131492908;
 			
+			// aapt resource value: 0x7f0c004a
+			public const int primary = 2131492938;
+			
 			// aapt resource value: 0x7f0c002d
 			public const int primary_dark_material_dark = 2131492909;
 			
@@ -1475,6 +1481,9 @@ namespace XamFormsAppTest.Droid
 			
 			// aapt resource value: 0x7f0c0034
 			public const int primary_text_disabled_material_light = 2131492916;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int primarydark = 2131492939;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int ripple_material_dark = 2131492917;
@@ -1500,17 +1509,20 @@ namespace XamFormsAppTest.Droid
 			// aapt resource value: 0x7f0c003c
 			public const int switch_thumb_disabled_material_light = 2131492924;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c0065
+			public const int switch_thumb_material_dark = 2131492965;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c0066
+			public const int switch_thumb_material_light = 2131492966;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int switch_thumb_normal_material_dark = 2131492925;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int switch_thumb_normal_material_light = 2131492926;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int windowbackground = 2131492941;
 			
 			static Color()
 			{
@@ -3658,10 +3670,10 @@ namespace XamFormsAppTest.Droid
 			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int Tabbar = 2130903106;
+			public const int tabs = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Toolbar = 2130903107;
+			public const int toolbar = 2130903107;
 			
 			static Layout()
 			{
@@ -3889,9 +3901,6 @@ namespace XamFormsAppTest.Droid
 			
 			// aapt resource value: 0x7f0b0170
 			public const int Animation_Design_BottomSheetDialog = 2131427696;
-			
-			// aapt resource value: 0x7f0b018b
-			public const int AppCompatDialogStyle = 2131427723;
 			
 			// aapt resource value: 0x7f0b00b2
 			public const int Base_AlertDialog_AppCompat = 2131427506;
@@ -4368,10 +4377,10 @@ namespace XamFormsAppTest.Droid
 			public const int CardView_Light = 2131427342;
 			
 			// aapt resource value: 0x7f0b0189
-			public const int MainTheme = 2131427721;
+			public const int MyTheme = 2131427721;
 			
 			// aapt resource value: 0x7f0b018a
-			public const int MainTheme_Base = 2131427722;
+			public const int MyTheme_Base = 2131427722;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int Platform_AppCompat = 2131427373;

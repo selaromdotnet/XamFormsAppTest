@@ -1,4 +1,8 @@
-﻿using System;
+﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Core.Views;
+using MvvmCross.Forms.Presenters;
+using MvvmCross.Platform;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,11 +21,21 @@ namespace XamFormsAppTest.UWP
 {
     public sealed partial class MainPage
     {
-        public MainPage()
-        {
-            this.InitializeComponent();
+		public MainPage()
+		{
+			this.InitializeComponent();
+			var start = Mvx.Resolve<IMvxAppStart>();
+			start.Start();
 
-            LoadApplication(new XamFormsAppTest.App());
-        }
-    }
+
+		}
+
+		protected async override void OnNavigatedTo(NavigationEventArgs e)
+		{
+			base.OnNavigatedTo(e);
+
+			MvxFormsPagePresenter presenter = Mvx.Resolve<IMvxViewPresenter>() as MvxFormsPagePresenter;
+			this.LoadApplication(presenter.FormsApplication);
+		}
+	}
 }

@@ -58,9 +58,10 @@ namespace XamFormsAppTest.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.Init(e);
+				var setup = new Setup(rootFrame, e);
+				setup.Initialize();
 
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
+				if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
                     //TODO: Load state from previously suspended application
                 }

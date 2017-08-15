@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
+<mvx:MvxFormsApplication xmlns="http://xamarin.com/schemas/2014/forms"
+						 xmlns:mvx="clr-namespace:MvvmCross.Forms.Core;assembly=MvvmCross.Forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamFormsAppTest.App">
 	<Application.Resources>
@@ -7,4 +8,4 @@
 		<!-- Application resource dictionary -->
 
 	</Application.Resources>
-</Application>
+</mvx:MvxFormsApplication>
