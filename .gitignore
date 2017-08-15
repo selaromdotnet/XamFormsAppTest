@@ -1,0 +1,8 @@
+packages/
+XamFormsAppTest/XamFormsAppTest.Android/bin/
+XamFormsAppTest/XamFormsAppTest.Android/obj/
+XamFormsAppTest/XamFormsAppTest.iOS/obj/
+XamFormsAppTest/XamFormsAppTest.UWP/bin/
+XamFormsAppTest/XamFormsAppTest.UWP/obj/
+XamFormsAppTest/XamFormsAppTest/obj/
+XamFormsAppTest/XamFormsAppTest/bin/

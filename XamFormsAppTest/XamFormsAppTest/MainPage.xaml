@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamFormsAppTest"
+			 Title="Title"
+             x:Class="XamFormsAppTest.MainPage">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Name="Refresh" Order="Primary" Text="Refresh" Priority="0" Command="{Binding RefreshCommand}">
+			<ToolbarItem.Icon>
+				<OnPlatform x:TypeArguments="FileImageSource" Android="refresh.png" WinPhone="refresh.png" />
+			</ToolbarItem.Icon>
+		</ToolbarItem>
+	</ContentPage.ToolbarItems>
+	<Grid>
+		<ScrollView>
+			<StackLayout Padding="8">
+				<Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+			</StackLayout>
+		</ScrollView>
+	</Grid>
+</ContentPage>
